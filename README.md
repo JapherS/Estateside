@@ -1,9 +1,8 @@
 ![](https://github.com/JapherS/Estateside/blob/master/wiki_image/Estateside_Homepage.png)
-***
 
 # Estateside - A Real Estate Web Application
 Team Members: Japher Su, Zoheb Nawaz, Prajakta Dharme, Nicholas Galinski.  
-
+***
 ## About Project  
 The objective of the project was to make a property rental application that would allow users to interactively search properties in the selected area, inspect the different aspects associated with a property like the property type, amenities, parking etc. as well as express their interest in a particular property by contacting the associated property advertiser.  
 
@@ -15,10 +14,9 @@ Our proposed solution offers a realty web platform for users to browse available
 
 ## APIs used  
 We are using Zillow’s public APIs. Zillow has a variety of apartment options to buy, sell and rent. The Web API endpoints return JSON metadata about the apartments located in a particular location based on REST principles. We will use the web API to provide search details based on various filters.  
-***
 
 # Design
-
+***
 ## Architecture and Technology Stack  
 Database: MongoDB  
 Back End: Java/NodeJS  
