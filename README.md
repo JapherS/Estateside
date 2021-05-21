@@ -1,4 +1,4 @@
-![](https://github.ccs.neu.edu/japher/estateside-client-react/blob/master/wiki_image/Estateside_Homepage.png)
+![](https://github.com/JapherS/Estateside/blob/master/wiki_image/Estateside_Homepage.png)
 ***
 
 # Videos
