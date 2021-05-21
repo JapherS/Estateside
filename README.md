@@ -1,34 +1,25 @@
-# Estateside: CS5610-Web-Dev-Project
+![](https://github.ccs.neu.edu/japher/estateside-client-react/blob/master/wiki_image/Estateside_Homepage.png)
+***
+
+# Videos
+[![Overview](https://img.youtube.com/vi/zqbhNCysAUQ/0.jpg)](https://www.youtube.com/watch?v=zqbhNCysAUQ)
+[![Overview](https://img.youtube.com/vi/QuAGKK1D6c8/0.jpg)](https://www.youtube.com/watch?v=QuAGKK1D6c8)
+[![Overview](https://img.youtube.com/vi/OoB1YM40mc0/0.jpg)](https://www.youtube.com/watch?v=OoB1YM40mc0)
+[![Overview](https://img.youtube.com/vi/faO2Kl_NcxM/0.jpg)](https://www.youtube.com/watch?v=faO2Kl_NcxM)
 
 
-Link to Google Doc description: https://docs.google.com/document/d/1JU1Yq7fm1br5M_xgsy7k-E0RzK2BF8B2g4hmnb7EU2g/edit?usp=sharing  
-Application URL: https://estateside-zoheb.herokuapp.com/ 
+# Estateside - A Real Estate Web Application
+Team Members: Prajakta Dharme, Japher Su, Nicholas Galinski, Zoheb Nawaz.  
+***
 
+## About Project  
+The objective of the project was to make a property rental application that would allow users to interactively search properties in the selected area, inspect the different aspects associated with a property like the property type, amenities, parking etc. as well as express their interest in a particular property by contacting the associated property advertiser.  
 
-# Real Estate Web Application  
-Course: CS5610 Web Development  
-GitHub link: https://github.ccs.neu.edu/japher/CS5610-Web-Dev-Project  
+## Problem Statement  
+Two user types that would use this would be those who are looking for a rental (user/client) and those who are renting their unit (host/owner). On the user’s end, they would like to be able to search for properties whereas the owners would be notified of potential buyers.
 
-Semester: Fall 2020  
-Instructor: Jose Annunziato  
-Project Group Number: #17  
-Team Members: Prajakta Dharme, Japher Su, Nicholas Galinski, Zoheb Nawaz  
-# About Project  
-This project is made as a part of the course CS5610 Web Development at Northeastern University.   
-The objective of the project is to make a property rental application that would allow users to interactively search properties in the selected area, inspect the different aspects associated with a property like the property type, amenities, parking etc. as well as express their interest in a particular property by contacting the associated property advertiser.  
-# Problem Statement  
-Two user types that would use this would be those who are looking for a rental (user/client) and those who are renting their unit (host/owner). On the user’s end, they would like to be able to search for properties whereas the owners would be notified of potential buyers. We also have a third user type as the Property agent who would work as a collaborator between the owner and the client.  
-# Proposed Solution  
+## Proposed Solution  
 Our proposed solution offers a realty web platform for users to browse available realty properties for rent and for sale. Users can search targeted properties and look up the details of the properties of interest. Additionally, the platform allows landlords and agents to update realty information (operations include adding new listings, deleting & modifying existing listings).    
-# APIs used  
-The application is powered by data provided by Bridge Interactive's data, which powers popular 
-property rental/purchase platforms such as Zillow. 
-Zillow has a variety of apartment options to buy, sell and rent. The Web API endpoints return JSON metadata about the apartments located in a particular location based on REST principles. 
-We use the REST API to provide search details basedP on the requested location and also retrieve
- information about a specific property from the API.
- 
-# Architecture and Technology Stack  
-Database: MongoDB  
-Back End: NodeJS, Express  
-Front End: React  
-Host environment: Heroku  
+
+## APIs used  
+We are using Zillow’s public APIs. Zillow has a variety of apartment options to buy, sell and rent. The Web API endpoints return JSON metadata about the apartments located in a particular location based on REST principles. We will use the web API to provide search details based on various filters.  
